@@ -321,18 +321,6 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 29495:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23))
-
-/***/ }),
-
 /***/ 32394:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -364,7 +352,7 @@ function Page() {
         const headers = {
             "Content-type": "application/json"
         };
-        axios__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.post("http://localhost:8080/user/change-password", {
+        axios__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z.post("https://login-backend-uyxf.onrender.com/user/change-password", {
             newPassword: password
         }, {
             headers
@@ -449,7 +437,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [952,943], () => (__webpack_exec__(93615)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,864], () => (__webpack_exec__(93615)));
 module.exports = __webpack_exports__;
 
 })();

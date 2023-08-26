@@ -1,9 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[973],{4955:function(e,t,r){Promise.resolve().then(r.bind(r,9408))},9408:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return u}});var n=r(7437),s=r(2265),o=r(9222);function u(){let[e,t]=(0,s.useState)(""),[r,u]=(0,s.useState)(""),[a,l]=(0,s.useState)(""),[c,i]=(0,s.useState)(""),[f,p]=(0,s.useState)(null),[d,_]=(0,s.useState)(""),[h,S]=(0,s.useState)(null);return(0,n.jsxs)("div",{className:"container",children:[(0,n.jsx)("h1",{children:"Change password Page"}),(0,n.jsxs)("form",{onSubmit:e=>{e.preventDefault(),o.Z.post("http://localhost:8080/user/change-password",{newPassword:r},{headers:{"Content-type":"application/json"}}).then(e=>{e.json()}),"ok"===result.status?alert("Success"):alert(result.error)},children:[(0,n.jsx)("input",{type:"password",placeholder:"password",value:r,onChange:e=>u(e.target.value)}),(0,n.jsx)("button",{type:"submit",children:"Submit"})]}),(0,n.jsx)("h2",{children:c})]})}},622:function(e,t,r){"use strict";/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var n=r(2265),s=Symbol.for("react.element"),o=Symbol.for("react.fragment"),u=Object.prototype.hasOwnProperty,a=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,l={key:!0,ref:!0,__self:!0,__source:!0};function c(e,t,r){var n,o={},c=null,i=null;for(n in void 0!==r&&(c=""+r),void 0!==t.key&&(c=""+t.key),void 0!==t.ref&&(i=t.ref),t)u.call(t,n)&&!l.hasOwnProperty(n)&&(o[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===o[n]&&(o[n]=t[n]);return{$$typeof:s,type:e,key:c,ref:i,props:o,_owner:a.current}}t.Fragment=o,t.jsx=c,t.jsxs=c},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[222,971,596,744],function(){return e(e.s=4955)}),_N_E=e.O()}]);
