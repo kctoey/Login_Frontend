@@ -23,7 +23,7 @@ export default function Page() {
     };
     axios
       .post(
-        "http://localhost:8080/user/signup",
+        "https://login-backend-uyxf.onrender.com/user/signup",
         {
           name,
           email,

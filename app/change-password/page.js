@@ -21,7 +21,7 @@ export default function Page() {
     };
     axios
       .post(
-        "http://localhost:8080/user/change-password",
+        "https://login-backend-uyxf.onrender.com/user/change-password",
         {
           newPassword: password,
         },
