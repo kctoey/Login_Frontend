@@ -1,0 +1,7 @@
+{
+  "/page": "/",
+  "/change-password/page": "/change-password",
+  "/register/page": "/register",
+  "/userdata/page": "/userdata",
+  "/login/page": "/login"
+}
